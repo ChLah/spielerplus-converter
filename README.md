@@ -12,6 +12,14 @@ This should give you an ics file of all your matches for this season.
 
 ### Convert files
 
+Make soure you have Git and python installed. This can be done in the Microsoft Store.\
+After that clone this repository via `git clone https://github.com/ChLah/spielerplus-converter`.\
+Now install the dependencies with this command in the cloned directory:
+```bash
+pip install ics
+pip install openpyxl
+```
+The last step is to run the script with `python converter.py <source> <target>` where source is the path to the ics file downloaded from MyTischtennis and target the path where to write the resulting xlsx file. Don't forget the extension.\
 You can open the resulting xlsx file and check your appointments manually. If needed you can also change some cells.
 
 ### Import Appointments
